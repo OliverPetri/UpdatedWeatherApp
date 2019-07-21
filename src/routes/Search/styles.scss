@@ -1,0 +1,72 @@
+#search {
+
+	form {
+		width: 100%;
+		max-width: 30rem;
+	}
+
+	form, form label {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center; 
+
+		label, input, button {
+			width: 100%;
+			max-width: 100%;
+			padding: 0.5rem;
+			margin: 0.5rem auto;
+		}
+
+		label input {
+			max-width: 100%;
+		}
+
+		button {
+			width: 100%;
+
+		}
+
+		label {
+			padding: 0;
+		}
+	}
+
+	.todays-weather {
+		width: 30rem;
+		padding: -0.5rem 1rem 1rem;
+		background-color: #ddd;
+
+		h1 {
+			text-align: center;
+		}
+	}
+
+	.weather, .temp-desc-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 2rem;
+
+		.desc {
+			margin-right: 1rem;
+		}
+
+		.temp {
+			font-weight: bold;
+		}
+
+		img {
+			text-align: center;	
+			width: 5rem;
+		}
+	}
+
+	.weather {
+		flex-direction: column;
+	}
+
+	.temp-desc-container {
+		flex-direction: row;
+	}
+}

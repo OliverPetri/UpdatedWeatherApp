@@ -1,0 +1,15 @@
+.route {
+  
+}
+
+Header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	h1 {
+		font-size: 2rem;
+		font-weight: 100;
+		color: #333;
+	}
+}

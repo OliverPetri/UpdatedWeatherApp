@@ -1,0 +1,31 @@
+#home {
+	justify-content: center;
+	h1 {
+		padding: 0 5rem;
+		text-align: center;
+		font-size: 4rem;
+		text-transform: uppercase;
+	}
+	button {
+		padding: 1rem;
+		background-color: #e8283c;
+		font-size: 2rem;
+		color: #fff;
+		border-radius: 0.4rem;
+		border: none;
+		font-weight: 100;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #e72833c;
+		}
+	}	
+}
+
+@media only screen and (min-width: 80rem) {
+	#home {
+		h1 {
+			br { display: none; }
+		}
+	}
+}
